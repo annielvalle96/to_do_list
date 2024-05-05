@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "pern-stack",
+    "dateExported": "2023-10-09T23:56:03.653Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6cc68b9e-2849-4c68-ae23-f49e7dd253b5",
+            "colId": "86d40de2-e007-467d-a7ab-c9670c569de4",
+            "containerId": "",
+            "name": "POST /tasks",
+            "url": "http://localhost:3000/tasks",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-10-03T03:46:18.741Z",
+            "modified": "2023-10-09T23:54:29.418Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Hello World 8\",\n  \"description\": \"some description 8\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "11d44089-ccd5-4405-b9d1-a62614c98dda",
+            "colId": "86d40de2-e007-467d-a7ab-c9670c569de4",
+            "containerId": "",
+            "name": "GET /tasks",
+            "url": "http://localhost:3000/tasks",
+            "method": "GET",
+            "sortNum": 22500,
+            "created": "2023-10-03T03:45:07.368Z",
+            "modified": "2023-10-09T18:47:34.733Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "778df105-832c-47a9-9c14-4eca7d46f739",
+            "colId": "86d40de2-e007-467d-a7ab-c9670c569de4",
+            "containerId": "",
+            "name": "GET /tasks/:id",
+            "url": "http://localhost:3000/tasks/12",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2023-10-03T03:48:43.945Z",
+            "modified": "2023-10-09T18:47:48.417Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "17d2ca98-e16c-47b3-a97d-75cc88500ac1",
+            "colId": "86d40de2-e007-467d-a7ab-c9670c569de4",
+            "containerId": "",
+            "name": "DELETE /tasks/:id",
+            "url": "http://localhost:3000/tasks/13",
+            "method": "DELETE",
+            "sortNum": 27500,
+            "created": "2023-10-03T03:48:00.096Z",
+            "modified": "2023-10-09T23:54:53.076Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "125c6b73-c09f-44b4-ab80-00fe79bb5a6e",
+            "colId": "86d40de2-e007-467d-a7ab-c9670c569de4",
+            "containerId": "",
+            "name": "PUT /tasks/:id",
+            "url": "localhost:3000/tasks/27",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-10-03T03:47:18.383Z",
+            "modified": "2023-10-09T23:55:19.310Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Hello World 11\",\n  \"description\": \"some description 11\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

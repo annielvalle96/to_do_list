@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  postgres:
+    container_name: postgres
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: annielvallevalera
+      POSTGRES_PASSWORD: postgresQl+-9.797
+      POSTGRES_DB: pern-stack_tasks-db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+  pgadmin:
+    container_name: pgadmin4
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: 'annielvallevalera@gmail.com'
+      PGADMIN_DEFAULT_PASSWORD: 'pgadmiN4+-9.797'
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+volumes:
+  postgres-data:
+  pgadmin-data:
